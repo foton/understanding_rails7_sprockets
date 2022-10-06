@@ -10,6 +10,8 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ * Ohh, I see! The `require_tree .` bellow will also load `secondary_top.css` and `articles/articles.css`
+ * so content of `secondary_top.css` is in the end in compiled `applications.css` and `secondary_top.css` files
  *= require_tree .
  *= require_self
  */
